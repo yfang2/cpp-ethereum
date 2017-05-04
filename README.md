@@ -153,6 +153,11 @@ the fork https://github.com/genoil/cpp-ethereum.
 To run the tests, make sure you clone https://github.com/ethereum/tests and point the environment variable
 `ETHEREUM_TEST_PATH` to that path.
 
+## Documentation
+
+- [Internal documentation for developers](doc/index.rst).
+- [Outdated documentation for end users](http://www.ethdocs.org/en/latest/ethereum-clients/cpp-ethereum/).
+
 
 ## License
 
