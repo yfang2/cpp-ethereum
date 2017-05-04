@@ -40,7 +40,8 @@ set(CPP_ETHEREUM_DIR "${CMAKE_CURRENT_LIST_DIR}" CACHE PATH "Path to the root di
 include(EthPolicy)
 eth_policy()
 
-
+set(HUNTER_CONFIGURATION_TYPES Release)
+set(HUNTER_USE_CACHE_SERVERS NO)
 include(HunterGate)
 HunterGate(
     URL "https://github.com/ruslo/hunter/archive/v0.18.39.tar.gz"
