@@ -1,38 +1,12 @@
 // Do not optimize.
-// Primes 2**256-1883 and 2**256-189 from https://primes.utm.edu/lists/2small/200bit.html
-// used to defeat optmizations of special cases observed with some other constants.
 pragma solidity ^0.4.0;
 
 contract add {
-	function add(){
-		for (uint i = 1; i <= 500000; ++i) {
+	function add() {
+		for (uint i = 1; i <= 1000000; ++i) {
 			assembly {
-				0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff43
-				0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8a5
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
-				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
+				0x4bf960ec0a2b1923ed4767c8feaff1ce367788982116691743ac04b506f18972
+				0xf54cb76f5ecad3cb706b52c41dee9ddac22e0697700224b75f1cf3007f5ec1a7
 				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
 				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
 				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add

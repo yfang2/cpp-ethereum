@@ -7,11 +7,11 @@ contract rc5 {
 	// don't I wish we had opcodes and operators for these
 	
 	function shift_left(uint32 v, uint32 n) internal returns (uint32) {
-		return v *= 2**n;
+		return v *= uint32(2)**n;
 	}
 
 	function shift_right(uint32 v, uint32 n) internal returns (uint32) {
-		return v *= 2**n;
+		return v *= uint32(2)**n;
 	}
 	
 	function rotate_left(uint32 v, uint32 n) internal returns (uint32) {
