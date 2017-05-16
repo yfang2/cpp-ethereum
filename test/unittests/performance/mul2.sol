@@ -1,12 +1,12 @@
 // Do not optimize
 pragma solidity ^0.4.0;
 
-contract mul2p16 {
-	function mul2p16() {
+contract mul2 {
+	function mul2() {
 		for (uint i = 1; i <= 1000000; ++i) {
 			assembly {
-				0xf9825c847d3caca322b15513c0f696c8bad9b78ca173ae6701d46bf34f05ae47
-				0xc881
+				2
+				0x4bf960ec0a2b1923ed4767c8feaff1ce367788982116691743ac04b506f18972
 				dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul
 				dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul
 				dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul

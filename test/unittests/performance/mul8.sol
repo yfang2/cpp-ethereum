@@ -5,8 +5,8 @@ contract mul8 {
 	function mul8() {
 		for (uint i = 1; i <= 1000000; ++i) {
 			assembly {
-				0xffffffffffffffff
 				8
+				0x4bf960ec0a2b1923
 				dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul
 				dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul
 				dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul dup2 mul

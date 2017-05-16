@@ -1,12 +1,12 @@
 // Do not optimize.
 pragma solidity ^0.4.0;
 
-contract add {
-	function add() {
-		for (uint i = 1; i <= 1000000; ++i) {
+contract add256 {
+	function add256() {
+		for (uint i = 1; i <= 1000000; ++i) {  // 64 ADDs to 256-bit value
 			assembly {
-				0x4bf960ec0a2b1923ed4767c8feaff1ce367788982116691743ac04b506f18972
-				0xf54cb76f5ecad3cb706b52c41dee9ddac22e0697700224b75f1cf3007f5ec1a7
+				0x3ca46ff8c45ccb7330df83da15f146f296e8a4ab0d37e549cb52c7709a19233
+				0x231781c2dd0a1c46ba4ca7188fa79f90f018538ee0214bceb811ced3f507135
 				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
 				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
 				dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add dup2 add
